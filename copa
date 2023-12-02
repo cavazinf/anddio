@@ -1,0 +1,16 @@
+1. Navigation Component:
+Facilita a navegação entre diferentes destinos em seu aplicativo, como telas para visualizar jogos, resultados, etc.
+2. ViewModel:
+Gerencia e mantém os dados necessários para a interface do usuário.
+Pode ser útil para atualizar dinamicamente os dados do jogo enquanto o usuário navega no aplicativo.
+3. LiveData:
+Fornece dados observáveis para a IU, o que significa que os componentes da IU são atualizados automaticamente quando os dados mudam.
+Útil para transmitir atualizações de resultados de jogos em tempo real.
+4. Room Database:
+Permite a criação de um banco de dados local no aplicativo para armazenar dados, como resultados de jogos anteriores, datas, horários, locais dos jogos, etc.
+5. WorkManager:
+Pode ser usado para agendar e executar tarefas em segundo plano, como atualizar automaticamente os resultados dos jogos ou enviar notificações sobre os próximos jogos.
+6. Notifications:
+A Biblioteca de Notificações do Android Jetpack permite criar notificações atraentes para manter os usuários informados sobre os jogos.
+7. Paging Library:
+Útil para carregar grandes conjuntos de dados de maneira eficiente, como a lista de jogos da Copa do Mundo.
